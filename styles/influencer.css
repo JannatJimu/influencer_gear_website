@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* shared items */
+.primary-color {
+    background-color: #ffffff;
+}
+.secondary-color{
+    background-color: #0A0826;
+}
+
+.ligth-dark {
+    color: #3A3A3A;
+}
+
+/* website width */
+/* header section */
+.header {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.search-icon,
+.cart-icon {
+    width: 19px;
+    height: 19px;
+}
+
+.navbar {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin-right: 20px;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.navbar-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.banner-container {
+    justify-content: space-between;
+}
+
+.banner-details {
+    width: 582px;
+    height: 270px;
+
+}
+
+.banner-heading {
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.banner-description {
+    font-size: 1.rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.banner-btn {
+    background-color: #E02C6D;
+    color: #ffffff;
+    border-radius: 41px;
+    padding: 10px 24px;
+    border: none;
+
+}
+
+.banner-img {
+    width: 440px;
+    height: 414px;
+    margin-top: 80px;
+    margin-right: 45px;
+    background-image: url('../images/Circle\ design.svg');
+}
+
+/* website-container styles */
+.website-container {
+    justify-content: space-between;
+    /* width: 986px; */
+    height: 110px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 100px;
+    margin-left: 45px;
+    
+}
+/* collection styles */
+.collection-container{
+    justify-content: space-between;
+    height:1670px ;
+    text-align: center;
+    margin-left: 196px;
+    margin-right:196px ;
+}
+.collection-container-heading{
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.collection-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* gap:20px; */
+}
+.card{
+   width: 329px; 
+   height:476px ;
+   border-radius: 5px;
+   margin-bottom: 40px;
+   border:1px solid rgba(136, 136, 136, 0.15) ;
+   box-shadow: rgba(0, 0, 0, 0.15)
+   
+}
+.card-img{
+    width: 300px;
+    height: 256px;
+    padding:17px 14px;
+}
+.card-heading{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #18191F;
+    margin-bottom:6px;
+    margin: 0px;
+}
+.card-price{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 6px;
+}
+.card-description{
+   color: #787885; 
+   font-size: .8rem;
+   font-weight: 700;
+   margin-bottom: 27px;
+}
+.see-more-anchor{
+    color:#E02C6D;
+    text-decoration:none ;
+    
+    margin: 0px 24px 0px 948px;
+}
+/* feature section styles */
+.feature-product-container{
+    justify-content: space-evenly;
+  
+}
+.feature-product-img{
+    width: 404px;
+    height: 270px;
+    border-radius: 7px;
+}
+.feature-details{
+    width:610px ;
+    height:224px;
+}
+.feature-heading{
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom:16px;
+    color: #0A0826;
+}
+
+.feature-card-descriptio{
+    font-size: 1rem;
+    font-weight: 700;
+    color:#6C6C6C;
+    margin-bottom: 16px;
+}
+.feature-btn{
+    background-color: #E02C6D;
+    color: #ffffff;
+    padding: 10px 24px;
+    border: none;
+}
+/* footer section */
+.Influencer-products-container{
+    
+    width: 262px;
+    height: 230px;
+    color: #ffffff;
+    justify-content: space-between;
+    text-align: center;
+    margin: 150px auto 50px auto;
+
+}
+.foot-img{
+    width: 32px;
+    height: 32px;
+    color: #ffffff;
+    filter: brightness(0) invert(1); /* Makes the image white */
+    
+}
+.social-media-icons{
+    justify-content: space-around;
+}
+.influencer-products-heading{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 3px;
+  padding-top: 50px;
+}
+.influencer-copyrights{
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
