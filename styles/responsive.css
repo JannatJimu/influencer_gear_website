@@ -1,4 +1,4 @@
-@media screen and (max-width:576px) {
+/* @media screen and (max-width:576px) {
     .navbar {
         flex-direction: column;
         justify-self: self-start;
@@ -30,6 +30,7 @@
     .banner-img{
 
         width: 100%;
+        height: auto;
         justify-content: space-between;
         height: auto;
         background-repeat: no-repeat;
@@ -80,4 +81,4 @@
     .influencer-products-heading,.influencer-copyrights{
     
     }
-}
+} */
